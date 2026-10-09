@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LocalSearch
+Comment=Natural-language search over your local files. 100% on-device.
+Exec=/usr/bin/localsearch
+Icon=localsearch
+Terminal=false
+Type=Application
+Categories=Utility;FileTools;
+StartupWMClass=localsearch
+Keywords=search;files;semantic;local;

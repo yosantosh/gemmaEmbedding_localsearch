@@ -1,0 +1,14 @@
+[Unit]
+Description=LocalSearch embedding backend (127.0.0.1:39281)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/localsearch-backend
+Restart=on-failure
+RestartSec=10
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target
